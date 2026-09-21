@@ -26,9 +26,6 @@
 			exceptions = (
 				F1D1425B3061472D00B04676 /* Exceptions for "SpatialCase" folder in "SpatialCase" target */,
 			);
-			explicitFolders = (
-				Resources/Materials,
-			);
 			path = SpatialCase;
 			sourceTree = "<group>";
 		};
