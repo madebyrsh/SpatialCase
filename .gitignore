@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode - User-specific data
+xcuserdata/
+*.xcuserstate
+
+# Xcode - Build products
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+
+# Reality Composer Pro - User-specific data
+*.realitycomposerpro/xcuserdata/
