@@ -13,7 +13,7 @@ settings: [
 		object: {
 			__type: "tm_build_settings"
 			__uuid: "198769d3-3f98-509c-f14f-1d3466c37a9c"
-			xcode_directory: ""
+			xcode_directory: "/Users/madebyrsh/Documents/Dev/visionOS-Playground/Projects/SpatialCase/SpatialCase.xcodeproj"
 			plugin_directory: ""
 			build_configuration: "Debug"
 		}

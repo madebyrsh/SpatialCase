@@ -13,6 +13,8 @@ struct ContentView: View {
         VStack {
 
             Text("Hello, world!")
+            
+            ToggleImmersiveSpaceButton()
         }
         .padding()
     }
@@ -20,4 +22,5 @@ struct ContentView: View {
 
 #Preview(windowStyle: .automatic) {
     ContentView()
+        .environment(AppModel())
 }
