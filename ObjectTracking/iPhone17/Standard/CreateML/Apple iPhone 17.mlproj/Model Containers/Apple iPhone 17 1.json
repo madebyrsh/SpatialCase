@@ -1,0 +1,1491 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-09-08T16:28:55Z",
+        "event" : "trainingDataAdded",
+        "id" : "62E94EE1-3958-4B69-8A42-B70E2D6F0573",
+        "subtitle" : "Apple iPhone 17.usdz",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-09-08T22:18:43Z",
+        "event" : "trainingFinished",
+        "id" : "FAB1D516-92F8-4FCC-9B38-1AE3C88C4F91",
+        "subtitle" : "Apple iPhone 17 1",
+        "title" : "Training Completed"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-09-08T16:29:07Z",
+        "event" : "trainingStarted",
+        "id" : "036FBD16-18E9-4831-8731-F2A48568B0B9",
+        "subtitle" : "Apple iPhone 17 1",
+        "title" : "Training Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-09-08T16:28:28Z",
+        "event" : "experimentCreated",
+        "id" : "5B180F4A-56B5-45F2-910A-4B9D1642D9E3",
+        "subtitle" : "Apple iPhone 17 1",
+        "title" : "Model Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-09-08T16:28:28Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-09-22T13:28:20Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "5c5d2249-42dc-486d-98f6-32031074da22",
+    "modifiedDate" : "2026-09-22T13:28:20Z",
+    "previewType" : "unknown",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-09-08T16:28:28Z",
+      "dataResult" : {
+        "createdDate" : "2026-09-08T16:28:55Z"
+      },
+      "id" : "843647de-d2e5-46ad-b6c9-c4b875a47d41"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-09-08T16:28:28Z",
+      "dataResult" : {
+        "createdDate" : "2026-09-08T16:28:55Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+
+          },
+          "usdzAnalysis" : {
+            "objectMeasurements" : [
+              {
+                "unit" : {
+                  "converter" : {
+                    "coefficient" : 1,
+                    "constant" : 0
+                  },
+                  "symbol" : "m"
+                },
+                "value" : 0.07234969735145569
+              },
+              {
+                "unit" : {
+                  "converter" : {
+                    "coefficient" : 1,
+                    "constant" : 0
+                  },
+                  "symbol" : "m"
+                },
+                "value" : 0.011399947106838226
+              },
+              {
+                "unit" : {
+                  "converter" : {
+                    "coefficient" : 1,
+                    "constant" : 0
+                  },
+                  "symbol" : "m"
+                },
+                "value" : 0.14961117506027222
+              }
+            ]
+          }
+        },
+        "dataSourceID" : "CCEB1B68-3667-4988-B520-51F3EB664D6C",
+        "dataURL" : "file:///Users/madebyrsh/Library/Mobile%20Documents/com~apple~CloudDocs/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3/SpatialCase/Apple%20iPhone%2017.usdz"
+      },
+      "dataSourceID" : "CCEB1B68-3667-4988-B520-51F3EB664D6C",
+      "evaluationResult" : {
+        "known3DObjectTracker" : {
+          "detectorLoss" : 0.7145866,
+          "trackerLoss" : 0.0096413335
+        }
+      },
+      "id" : "2837c1cc-42ce-49bf-9fe4-788c5407dd4f"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-09-08T16:28:28Z",
+      "dataResult" : {
+        "createdDate" : "2026-09-08T16:28:55Z"
+      },
+      "id" : "d396459c-8678-440b-924e-ef0593be7360"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "7cdba36d-d9dd-4bbc-8015-457a1406a389"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "E0CDC0CC-DD85-4CFD-953A-D7BF53DC6522",
+  "modelEntity" : {
+    "createdDate" : "2026-09-08T16:28:28Z",
+    "experimentID" : "E0CDC0CC-DD85-4CFD-953A-D7BF53DC6522",
+    "id" : "CE64C607-DE68-4ACC-B2FF-E4710649195A",
+    "modelURL" : "Models/Apple%20iPhone%2017%201.referenceobject",
+    "modifiedDate" : "2026-09-08T16:28:28Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-09-22T13:28:20Z",
+  "preferredFilename" : "Apple iPhone 17 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 5,
+    "known3DObjectTrackerExcludesBacksideViews" : false,
+    "known3DObjectTrackerExcludesBottomViews" : false,
+    "known3DObjectTrackerIsGravityAligned" : false,
+    "known3DObjectTrackerNegativeObjectDataSourceIDs" : [
+
+    ],
+    "known3DObjectTrackerTrainingMode" : "standard",
+    "seedType" : "default",
+    "taskType" : "known3DObjectTracker",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "Apple iPhone 17 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "10" : {
+        "createdDate" : "2026-09-08T19:25:45Z",
+        "iteration" : 10,
+        "metrics" : {
+          "timeElapsed" : 10597.87591099739
+        }
+      },
+      "100001" : {
+        "createdDate" : "2026-09-08T20:11:12Z",
+        "iteration" : 1,
+        "metrics" : {
+          "timeElapsed" : 13324.676584005356
+        }
+      },
+      "100002" : {
+        "createdDate" : "2026-09-08T20:14:15Z",
+        "iteration" : 2,
+        "metrics" : {
+          "timeElapsed" : 13508.602503061295
+        }
+      },
+      "100003" : {
+        "createdDate" : "2026-09-08T20:17:19Z",
+        "iteration" : 3,
+        "metrics" : {
+          "timeElapsed" : 13692.5362200737
+        }
+      },
+      "100004" : {
+        "createdDate" : "2026-09-08T20:20:25Z",
+        "iteration" : 4,
+        "metrics" : {
+          "timeElapsed" : 13878.093211054802
+        }
+      },
+      "100005" : {
+        "createdDate" : "2026-09-08T20:23:32Z",
+        "iteration" : 5,
+        "metrics" : {
+          "timeElapsed" : 14064.644019007683
+        }
+      },
+      "100006" : {
+        "createdDate" : "2026-09-08T20:26:39Z",
+        "iteration" : 6,
+        "metrics" : {
+          "timeElapsed" : 14252.019775032997
+        }
+      },
+      "100007" : {
+        "createdDate" : "2026-09-08T20:29:48Z",
+        "iteration" : 7,
+        "metrics" : {
+          "timeElapsed" : 14440.81047797203
+        }
+      },
+      "100008" : {
+        "createdDate" : "2026-09-08T20:32:57Z",
+        "iteration" : 8,
+        "metrics" : {
+          "timeElapsed" : 14630.4397970438
+        }
+      },
+      "100009" : {
+        "createdDate" : "2026-09-08T20:36:08Z",
+        "iteration" : 9,
+        "metrics" : {
+          "timeElapsed" : 14820.71302807331
+        }
+      },
+      "100010" : {
+        "createdDate" : "2026-09-08T20:39:19Z",
+        "iteration" : 10,
+        "metrics" : {
+          "timeElapsed" : 15012.433824062347
+        }
+      },
+      "100011" : {
+        "createdDate" : "2026-09-08T20:42:32Z",
+        "iteration" : 11,
+        "metrics" : {
+          "timeElapsed" : 15205.231052994728
+        }
+      },
+      "100012" : {
+        "createdDate" : "2026-09-08T20:45:46Z",
+        "iteration" : 12,
+        "metrics" : {
+          "timeElapsed" : 15399.035109996796
+        }
+      },
+      "100013" : {
+        "createdDate" : "2026-09-08T20:49:01Z",
+        "iteration" : 13,
+        "metrics" : {
+          "timeElapsed" : 15593.714192986488
+        }
+      },
+      "100014" : {
+        "createdDate" : "2026-09-08T20:52:16Z",
+        "iteration" : 14,
+        "metrics" : {
+          "timeElapsed" : 15789.46068406105
+        }
+      },
+      "100015" : {
+        "createdDate" : "2026-09-08T20:55:33Z",
+        "iteration" : 15,
+        "metrics" : {
+          "timeElapsed" : 15986.573507070541
+        }
+      },
+      "100016" : {
+        "createdDate" : "2026-09-08T20:58:53Z",
+        "iteration" : 16,
+        "metrics" : {
+          "timeElapsed" : 16185.648406028748
+        }
+      },
+      "100017" : {
+        "createdDate" : "2026-09-08T21:02:13Z",
+        "iteration" : 17,
+        "metrics" : {
+          "timeElapsed" : 16385.832113981247
+        }
+      },
+      "100018" : {
+        "createdDate" : "2026-09-08T21:05:32Z",
+        "iteration" : 18,
+        "metrics" : {
+          "timeElapsed" : 16585.08970606327
+        }
+      },
+      "100019" : {
+        "createdDate" : "2026-09-08T21:08:46Z",
+        "iteration" : 19,
+        "metrics" : {
+          "timeElapsed" : 16779.217164993286
+        }
+      },
+      "100020" : {
+        "createdDate" : "2026-09-08T21:12:00Z",
+        "iteration" : 20,
+        "metrics" : {
+          "timeElapsed" : 16973.460417032242
+        }
+      },
+      "100021" : {
+        "createdDate" : "2026-09-08T21:15:17Z",
+        "iteration" : 21,
+        "metrics" : {
+          "timeElapsed" : 17169.856469988823
+        }
+      },
+      "100022" : {
+        "createdDate" : "2026-09-08T21:18:35Z",
+        "iteration" : 22,
+        "metrics" : {
+          "timeElapsed" : 17368.13646197319
+        }
+      },
+      "100023" : {
+        "createdDate" : "2026-09-08T21:21:49Z",
+        "iteration" : 23,
+        "metrics" : {
+          "timeElapsed" : 17562.419746994972
+        }
+      },
+      "100024" : {
+        "createdDate" : "2026-09-08T21:25:04Z",
+        "iteration" : 24,
+        "metrics" : {
+          "timeElapsed" : 17756.850419044495
+        }
+      },
+      "100025" : {
+        "createdDate" : "2026-09-08T21:28:20Z",
+        "iteration" : 25,
+        "metrics" : {
+          "timeElapsed" : 17952.651455044746
+        }
+      },
+      "100026" : {
+        "createdDate" : "2026-09-08T21:31:35Z",
+        "iteration" : 26,
+        "metrics" : {
+          "timeElapsed" : 18148.287675976753
+        }
+      },
+      "100027" : {
+        "createdDate" : "2026-09-08T21:34:55Z",
+        "iteration" : 27,
+        "metrics" : {
+          "timeElapsed" : 18348.045245051384
+        }
+      },
+      "100028" : {
+        "createdDate" : "2026-09-08T21:38:16Z",
+        "iteration" : 28,
+        "metrics" : {
+          "timeElapsed" : 18549.112704992294
+        }
+      },
+      "100029" : {
+        "createdDate" : "2026-09-08T21:41:37Z",
+        "iteration" : 29,
+        "metrics" : {
+          "timeElapsed" : 18749.712192058563
+        }
+      },
+      "100030" : {
+        "createdDate" : "2026-09-08T21:44:58Z",
+        "iteration" : 30,
+        "metrics" : {
+          "timeElapsed" : 18951.27887403965
+        }
+      },
+      "100031" : {
+        "createdDate" : "2026-09-08T21:48:19Z",
+        "iteration" : 31,
+        "metrics" : {
+          "timeElapsed" : 19152.171633005142
+        }
+      },
+      "100032" : {
+        "createdDate" : "2026-09-08T21:51:38Z",
+        "iteration" : 32,
+        "metrics" : {
+          "timeElapsed" : 19351.01387798786
+        }
+      },
+      "100033" : {
+        "createdDate" : "2026-09-08T21:54:58Z",
+        "iteration" : 33,
+        "metrics" : {
+          "timeElapsed" : 19550.92093396187
+        }
+      },
+      "100034" : {
+        "createdDate" : "2026-09-08T21:58:17Z",
+        "iteration" : 34,
+        "metrics" : {
+          "timeElapsed" : 19749.902413010597
+        }
+      },
+      "100035" : {
+        "createdDate" : "2026-09-08T22:01:37Z",
+        "iteration" : 35,
+        "metrics" : {
+          "timeElapsed" : 19950.00842499733
+        }
+      },
+      "100036" : {
+        "createdDate" : "2026-09-08T22:04:56Z",
+        "iteration" : 36,
+        "metrics" : {
+          "timeElapsed" : 20148.778185009956
+        }
+      },
+      "100037" : {
+        "createdDate" : "2026-09-08T22:08:10Z",
+        "iteration" : 37,
+        "metrics" : {
+          "timeElapsed" : 20343.44156205654
+        }
+      },
+      "100038" : {
+        "createdDate" : "2026-09-08T22:11:31Z",
+        "iteration" : 38,
+        "metrics" : {
+          "timeElapsed" : 20544.393334031105
+        }
+      },
+      "100039" : {
+        "createdDate" : "2026-09-08T22:14:57Z",
+        "iteration" : 39,
+        "metrics" : {
+          "timeElapsed" : 20750.2166980505
+        }
+      },
+      "100040" : {
+        "createdDate" : "2026-09-08T22:18:43Z",
+        "iteration" : 40,
+        "metrics" : {
+          "timeElapsed" : 20976.083242058754
+        }
+      },
+      "11" : {
+        "createdDate" : "2026-09-08T19:42:33Z",
+        "iteration" : 11,
+        "metrics" : {
+          "timeElapsed" : 11606.537207961082
+        }
+      },
+      "12" : {
+        "createdDate" : "2026-09-08T20:00:20Z",
+        "iteration" : 12,
+        "metrics" : {
+          "timeElapsed" : 12673.273266077042
+        }
+      },
+      "15" : {
+        "createdDate" : "2026-09-08T20:08:25Z",
+        "iteration" : 15,
+        "metrics" : {
+          "timeElapsed" : 13158.277498960495
+        }
+      },
+      "2" : {
+        "createdDate" : "2026-09-08T17:11:49Z",
+        "iteration" : 2,
+        "metrics" : {
+          "timeElapsed" : 2561.9643419981003
+        }
+      },
+      "3" : {
+        "createdDate" : "2026-09-08T17:28:25Z",
+        "iteration" : 3,
+        "metrics" : {
+          "timeElapsed" : 3558.010002017021
+        }
+      },
+      "4" : {
+        "createdDate" : "2026-09-08T17:45:00Z",
+        "iteration" : 4,
+        "metrics" : {
+          "timeElapsed" : 4552.781875967979
+        }
+      },
+      "5" : {
+        "createdDate" : "2026-09-08T18:01:44Z",
+        "iteration" : 5,
+        "metrics" : {
+          "timeElapsed" : 5556.926813006401
+        }
+      },
+      "6" : {
+        "createdDate" : "2026-09-08T18:18:33Z",
+        "iteration" : 6,
+        "metrics" : {
+          "timeElapsed" : 6566.276970028877
+        }
+      },
+      "7" : {
+        "createdDate" : "2026-09-08T18:35:13Z",
+        "iteration" : 7,
+        "metrics" : {
+          "timeElapsed" : 7566.6219120025635
+        }
+      },
+      "8" : {
+        "createdDate" : "2026-09-08T18:51:52Z",
+        "iteration" : 8,
+        "metrics" : {
+          "timeElapsed" : 8564.642879009247
+        }
+      },
+      "9" : {
+        "createdDate" : "2026-09-08T19:08:53Z",
+        "iteration" : 9,
+        "metrics" : {
+          "timeElapsed" : 9586.16115796566
+        }
+      }
+    },
+    "dataResult" : {
+      "createdDate" : "2026-09-08T16:28:55Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+
+        },
+        "usdzAnalysis" : {
+          "objectMeasurements" : [
+            {
+              "unit" : {
+                "converter" : {
+                  "coefficient" : 1,
+                  "constant" : 0
+                },
+                "symbol" : "m"
+              },
+              "value" : 0.07234969735145569
+            },
+            {
+              "unit" : {
+                "converter" : {
+                  "coefficient" : 1,
+                  "constant" : 0
+                },
+                "symbol" : "m"
+              },
+              "value" : 0.011399947106838226
+            },
+            {
+              "unit" : {
+                "converter" : {
+                  "coefficient" : 1,
+                  "constant" : 0
+                },
+                "symbol" : "m"
+              },
+              "value" : 0.14961117506027222
+            }
+          ]
+        }
+      },
+      "dataSourceID" : "CCEB1B68-3667-4988-B520-51F3EB664D6C",
+      "dataURL" : "file:///Users/madebyrsh/Library/Mobile%20Documents/com~apple~CloudDocs/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3/SpatialCase/Apple%20iPhone%2017.usdz"
+    },
+    "dataSourceID" : "CCEB1B68-3667-4988-B520-51F3EB664D6C",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-09-08T22:18:43Z",
+    "progress" : [
+      {
+        "count" : 54721,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 971.5364680290222,
+          "iterationCount" : 1,
+          "loss" : 1.1824777126312256,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 1993.3954719305038,
+          "iterationCount" : 2,
+          "loss" : 1.0801712274551392,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 2989.4411449432373,
+          "iterationCount" : 3,
+          "loss" : 1.1787002086639404,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 3984.2130259275436,
+          "iterationCount" : 4,
+          "loss" : 0.45281755924224854,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 4988.357933998108,
+          "iterationCount" : 5,
+          "loss" : 0.7924360632896423,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 6,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 5997.708115935326,
+          "iterationCount" : 6,
+          "loss" : 0.5262237787246704,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 7,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 6998.053053975105,
+          "iterationCount" : 7,
+          "loss" : 0.6087529063224792,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 8,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 7996.074023962021,
+          "iterationCount" : 8,
+          "loss" : 0.7680588960647583,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 9,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 9017.592306017876,
+          "iterationCount" : 9,
+          "loss" : 0.5451123118400574,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 10029.307055950165,
+          "iterationCount" : 10,
+          "loss" : 0.4093526601791382,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 11,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 11037.968348026276,
+          "iterationCount" : 11,
+          "loss" : 0.7247032523155212,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 12,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectDetectorTrainingColumnHeader" : {
+          "batch" : 3000,
+          "elapsedTime" : 12061.68317592144,
+          "iterationCount" : 12,
+          "loss" : 0.5950031876564026,
+          "totalBatches" : 3437,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 110081,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 166.4007649421692,
+          "iterationCount" : 1,
+          "loss" : 0.001137432991527021,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 350.3266899585724,
+          "iterationCount" : 2,
+          "loss" : 0.0010695441160351038,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 534.2604029178619,
+          "iterationCount" : 3,
+          "loss" : 0.0009950522799044847,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 719.8173909187317,
+          "iterationCount" : 4,
+          "loss" : 0.0008439452503807843,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 906.368215918541,
+          "iterationCount" : 5,
+          "loss" : 0.0009359749965369701,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 6,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 1093.7437369823456,
+          "iterationCount" : 6,
+          "loss" : 0.0008795588510110974,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 7,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 1282.5346620082855,
+          "iterationCount" : 7,
+          "loss" : 0.0007558090146631002,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 8,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 1472.1639759540558,
+          "iterationCount" : 8,
+          "loss" : 0.000748489866964519,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 9,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 1662.437217950821,
+          "iterationCount" : 9,
+          "loss" : 0.0008303781505674124,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 1854.157844901085,
+          "iterationCount" : 10,
+          "loss" : 0.0007325657643377781,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 11,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 2046.9552400112152,
+          "iterationCount" : 11,
+          "loss" : 0.0007660604314878583,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 12,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 2240.7593019008636,
+          "iterationCount" : 12,
+          "loss" : 0.0009039476281031966,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 13,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 2435.4383869171143,
+          "iterationCount" : 13,
+          "loss" : 0.000848360126838088,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 14,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 2631.184872984886,
+          "iterationCount" : 14,
+          "loss" : 0.0007543715764768422,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 2828.2977089881897,
+          "iterationCount" : 15,
+          "loss" : 0.0008120561251416802,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 16,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 3027.372586965561,
+          "iterationCount" : 16,
+          "loss" : 0.000819463049992919,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 17,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 3227.556051969528,
+          "iterationCount" : 17,
+          "loss" : 0.0007054480374790728,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 18,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 3426.813905954361,
+          "iterationCount" : 18,
+          "loss" : 0.0006028440548107028,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 19,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 3620.941358923912,
+          "iterationCount" : 19,
+          "loss" : 0.0007082855445332825,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 3815.184617996216,
+          "iterationCount" : 20,
+          "loss" : 0.0008851829916238785,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 21,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 4011.580652952194,
+          "iterationCount" : 21,
+          "loss" : 0.0006372755160555243,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 22,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 4209.860655903816,
+          "iterationCount" : 22,
+          "loss" : 0.0006081685423851013,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 23,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 4404.14394390583,
+          "iterationCount" : 23,
+          "loss" : 0.000664654013235122,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 24,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 4598.574616909027,
+          "iterationCount" : 24,
+          "loss" : 0.0006172034190967679,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 4794.375651955605,
+          "iterationCount" : 25,
+          "loss" : 0.000585814705118537,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 26,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 4990.011869907379,
+          "iterationCount" : 26,
+          "loss" : 0.0005781726213172078,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 27,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 5189.769436955452,
+          "iterationCount" : 27,
+          "loss" : 0.0005339773488231003,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 28,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 5390.836896896362,
+          "iterationCount" : 28,
+          "loss" : 0.0005461320979520679,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 29,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 5591.436378002167,
+          "iterationCount" : 29,
+          "loss" : 0.0005909664323553443,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 30,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 5793.00297999382,
+          "iterationCount" : 30,
+          "loss" : 0.0005436037899926305,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 31,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 5993.89582490921,
+          "iterationCount" : 31,
+          "loss" : 0.000530976161826402,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 32,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 6192.738072991371,
+          "iterationCount" : 32,
+          "loss" : 0.00044301949674263597,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 33,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 6392.645129919052,
+          "iterationCount" : 33,
+          "loss" : 0.00043834990356117487,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 34,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 6591.626389980316,
+          "iterationCount" : 34,
+          "loss" : 0.0004878113977611065,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 35,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 6791.732615947723,
+          "iterationCount" : 35,
+          "loss" : 0.00043417501728981733,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 36,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 6990.502377986908,
+          "iterationCount" : 36,
+          "loss" : 0.00046339386608451605,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 37,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 7185.1657609939575,
+          "iterationCount" : 37,
+          "loss" : 0.0003945202915929258,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 38,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 7386.11754989624,
+          "iterationCount" : 38,
+          "loss" : 0.0004704489838331938,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 39,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 7591.940891981125,
+          "iterationCount" : 39,
+          "loss" : 0.0004164848360233009,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 3
+      },
+      {
+        "count" : 40,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "known3DObjectTrackerTrainingColumnHeader" : {
+          "batch" : 1400,
+          "elapsedTime" : 7795.839648962021,
+          "iterationCount" : 40,
+          "loss" : 0.0004028149996884167,
+          "totalBatches" : 1548,
+          "trainingAccuracy" : 0
+        },
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 3
+      }
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-09-08T16:29:07Z",
+    "trainingAccuracy" : 0.7242279648780823,
+    "trainingResults" : {
+      "known3DObjectTracker" : {
+        "detectorLoss" : 0.7145866,
+        "trackerLoss" : 0.0096413335
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-09-08T16:28:55Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,91 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-09-08T16:29:07Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "C980DD32-5BC0-472C-82AC-0999239B688B",
+        "subtitle" : "Apple iPhone 17 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-09-08T16:28:55Z",
+        "event" : "dataSourceCreated",
+        "id" : "DB72D536-EAAF-4A67-895B-93F618099706",
+        "subtitle" : "Apple iPhone 17.usdz",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-09-08T16:28:55Z",
+  "dataPathRelativeToProjectURL" : "../../Library/Mobile%20Documents/com~apple~CloudDocs/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3/SpatialCase/Apple%20iPhone%2017.usdz/",
+  "dataResult" : {
+    "createdDate" : "2026-09-08T16:28:55Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+
+      },
+      "issues" : [
+
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+
+      },
+      "usdzAnalysis" : {
+        "objectMeasurements" : [
+          {
+            "unit" : {
+              "converter" : {
+                "coefficient" : 1,
+                "constant" : 0
+              },
+              "symbol" : "m"
+            },
+            "value" : 0.07234969735145569
+          },
+          {
+            "unit" : {
+              "converter" : {
+                "coefficient" : 1,
+                "constant" : 0
+              },
+              "symbol" : "m"
+            },
+            "value" : 0.14961117506027222
+          },
+          {
+            "unit" : {
+              "converter" : {
+                "coefficient" : 1,
+                "constant" : 0
+              },
+              "symbol" : "m"
+            },
+            "value" : 0.011399947106838226
+          }
+        ]
+      }
+    },
+    "dataSourceID" : "CCEB1B68-3667-4988-B520-51F3EB664D6C",
+    "dataURL" : "file:///Users/madebyrsh/Library/Mobile%20Documents/com~apple~CloudDocs/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3/SpatialCase/Apple%20iPhone%2017.usdz"
+  },
+  "dataURL" : "file:///Users/madebyrsh/Library/Mobile%20Documents/com~apple~CloudDocs/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3/SpatialCase/Apple%20iPhone%2017.usdz",
+  "experimentIDs" : [
+    "E0CDC0CC-DD85-4CFD-953A-D7BF53DC6522"
+  ],
+  "id" : "CCEB1B68-3667-4988-B520-51F3EB664D6C",
+  "modifiedDate" : "2026-09-22T13:40:18Z",
+  "pathType" : 0,
+  "preferredFilename" : "Apple iPhone 17.usdz",
+  "title" : "Apple iPhone 17.usdz",
+  "version" : "1.0"
+}

@@ -1,0 +1,91 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-09-06T23:39:31Z",
+        "event" : "dataSourceCreated",
+        "id" : "005AF7C3-B6E2-4DD4-A0D4-647E7C7DE3B3",
+        "subtitle" : "Apple iPhone 17.usdz",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-09-06T23:57:55Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "E9279EB6-A73B-4DB0-AE06-41B82FAE17E5",
+        "subtitle" : "Apple iPhone 17 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-09-06T23:39:31Z",
+  "dataPathRelativeToProjectURL" : "../../../SourceModels/Apple%20iPhone%2017.usdz/",
+  "dataResult" : {
+    "createdDate" : "2026-09-06T23:39:31Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+
+      },
+      "issues" : [
+
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+
+      },
+      "usdzAnalysis" : {
+        "objectMeasurements" : [
+          {
+            "unit" : {
+              "converter" : {
+                "coefficient" : 1,
+                "constant" : 0
+              },
+              "symbol" : "m"
+            },
+            "value" : 0.07234969735145569
+          },
+          {
+            "unit" : {
+              "converter" : {
+                "coefficient" : 1,
+                "constant" : 0
+              },
+              "symbol" : "m"
+            },
+            "value" : 0.14961117506027222
+          },
+          {
+            "unit" : {
+              "converter" : {
+                "coefficient" : 1,
+                "constant" : 0
+              },
+              "symbol" : "m"
+            },
+            "value" : 0.011399947106838226
+          }
+        ]
+      }
+    },
+    "dataSourceID" : "9B63CD15-C369-4E3E-AC1F-7931F8E0B38C",
+    "dataURL" : "file:///Users/madebyrsh/Documents/Dev/visionOS-Playground/Projects/SpatialCase/ObjectTracking/iPhone17/SourceModels/Apple%20iPhone%2017.usdz"
+  },
+  "dataURL" : "file:///Users/madebyrsh/Documents/Dev/visionOS-Playground/Projects/SpatialCase/ObjectTracking/iPhone17/SourceModels/Apple%20iPhone%2017.usdz",
+  "experimentIDs" : [
+    "ECFBA552-0009-4641-AAFA-C0C0337CA11D"
+  ],
+  "id" : "9B63CD15-C369-4E3E-AC1F-7931F8E0B38C",
+  "modifiedDate" : "2026-09-22T13:38:27Z",
+  "pathType" : 0,
+  "preferredFilename" : "Apple iPhone 17.usdz",
+  "title" : "Apple iPhone 17.usdz",
+  "version" : "1.0"
+}

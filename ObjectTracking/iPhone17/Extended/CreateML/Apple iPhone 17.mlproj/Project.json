@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-09-06T23:39:14Z",
+        "event" : "projectCreated",
+        "id" : "B2A1DD6D-4A35-45BE-A78A-6A615B6A467B",
+        "subtitle" : "Apple iPhone 17",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Shayne Ryu",
+  "createdDate" : "2026-09-06T23:39:14Z",
+  "description" : "",
+  "id" : "9838A07E-11BB-424F-8EAD-C8DEA842DBC4",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-09-06T23:39:14Z",
+  "projectName" : "Apple iPhone 17",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "known3DObjectTracker",
+  "title" : "Object Tracking",
+  "version" : "1.1"
+}
