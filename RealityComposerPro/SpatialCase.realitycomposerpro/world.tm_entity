@@ -46,11 +46,44 @@ children: [
 			}
 		]
 	}
+	{
+		__uuid: "e6652d7a-15d2-21a2-24b2-c7e7801f877f"
+		name: "iPhone17Anchor"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "9cc70368-dd67-8ada-809a-93cceaca3e1a"
+				local_position_double: {
+					__uuid: "13f3dee2-afa1-7143-1389-ddefc5069e8c"
+				}
+				local_rotation: {
+					__uuid: "8944898e-522f-032b-3a84-08b16d900f6b"
+				}
+				local_scale: {
+					__uuid: "3d8c5929-91e0-6d2c-61b9-b221fdfac582"
+				}
+			}
+			{
+				__type: "tm_re_anchoring_component"
+				__uuid: "94a33c52-d9c6-dc5b-80e0-011e278dc605"
+				target: {
+					__type: "RE_ANCHORING_COMPONENT_OBJECT_TARGET"
+					__uuid: "66873a20-1f1a-480b-798e-a3ec57661d9c"
+					"reference object": "0607c352-5e66-12ac-9995-5152c89f5859"
+				}
+			}
+		]
+	}
 ]
 child_sort_values: [
 	{
-		__uuid: "fd4f62d9-6171-90a4-3127-a9cd2d13a6c0"
+		__uuid: "a9b0cf97-b45d-3cde-9086-a0174672a9d7"
 		child: "552502e0-9be7-14f0-a98b-74b3c77eb119"
+	}
+	{
+		__uuid: "2117e7e3-105b-7c1f-d2b6-2402475954fc"
+		child: "e6652d7a-15d2-21a2-24b2-c7e7801f877f"
+		value: 1
 	}
 ]
 __asset_uuid: "8124fc29-90ea-74d7-9694-16087ad12e7d"
