@@ -1,0 +1,44 @@
+name: "Feature [기능]"
+description: "Plan and track a new feature. [새로운 기능을 계획하고 작업 내용을 관리합니다.]"
+title: "[Feature] "
+labels:
+  - enhancement
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description [기능 설명]"
+      description: "Describe the feature and why it is needed. [구현할 기능과 필요한 이유를 작성해주세요.]"
+      placeholder: "Describe the feature to implement. [구현할 기능과 목적을 작성해주세요.]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "Tasks [작업 내용]"
+      description: "Break the feature down into actionable tasks. [기능 구현에 필요한 작업을 구체적으로 작성해주세요.]"
+      placeholder: |
+        - [ ] Task 1 [작업 1]
+        - [ ] Task 2 [작업 2]
+        - [ ] Task 3 [작업 3]
+    validations:
+      required: true
+
+  - type: input
+    id: branch
+    attributes:
+      label: "Working Branch [작업 브랜치]"
+      description: "Enter the branch used to implement this feature. [이 기능을 구현할 브랜치를 입력해주세요.]"
+      placeholder: "feat/example-feature"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes [참고 사항]"
+      description: "Add technical notes, references, or additional context. [기술적인 참고 사항, 관련 자료 또는 추가 내용을 작성해주세요.]"
+    validations:
+      required: false
