@@ -1,0 +1,43 @@
+name: "Chore [유지보수]"
+description: "Plan and track maintenance or project setup work. [프로젝트 설정 및 유지보수 작업을 계획하고 관리합니다.]"
+title: "[Chore] "
+labels:
+  - chore
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description [작업 설명]"
+      description: "Describe the maintenance or setup work. [필요한 설정 또는 유지보수 작업을 작성해주세요.]"
+      placeholder: "Describe the work to be done. [진행할 작업을 작성해주세요.]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "Tasks [작업 내용]"
+      description: "Break the work down into actionable tasks. [필요한 작업을 구체적으로 작성해주세요.]"
+      placeholder: |
+        - [ ] Task 1 [작업 1]
+        - [ ] Task 2 [작업 2]
+    validations:
+      required: true
+
+  - type: input
+    id: branch
+    attributes:
+      label: "Working Branch [작업 브랜치]"
+      description: "Enter the branch used for this work. [이 작업에 사용할 브랜치를 입력해주세요.]"
+      placeholder: "chore/example-task"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes [참고 사항]"
+      description: "Add technical notes, references, or additional context. [기술적인 참고 사항, 관련 자료 또는 추가 내용을 작성해주세요.]"
+    validations:
+      required: false

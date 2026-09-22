@@ -1,0 +1,52 @@
+name: "Fix [버그 수정]"
+description: "Report and track a bug or unexpected behavior. [버그 또는 예상과 다른 동작을 기록하고 관리합니다.]"
+title: "[Fix] "
+labels:
+  - bug
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description [문제 설명]"
+      description: "Describe the bug or unexpected behavior. [발생한 문제 또는 예상과 다른 동작을 작성해주세요.]"
+      placeholder: "Describe what went wrong. [발생한 문제를 작성해주세요.]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce [재현 방법]"
+      description: "Describe the steps required to reproduce the issue. [문제를 재현할 수 있는 순서를 작성해주세요.]"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior [예상 동작]"
+      description: "Describe what you expected to happen. [정상적으로 기대한 동작을 작성해주세요.]"
+    validations:
+      required: true
+
+  - type: input
+    id: branch
+    attributes:
+      label: "Working Branch [작업 브랜치]"
+      description: "Enter the branch used to fix this issue. [이 문제를 수정할 브랜치를 입력해주세요.]"
+      placeholder: "fix/example-bug"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes [참고 사항]"
+      description: "Add logs, screenshots, technical notes, or additional context. [로그, 스크린샷, 기술적인 참고 사항 또는 추가 내용을 작성해주세요.]"
+    validations:
+      required: false

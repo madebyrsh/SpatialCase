@@ -1,6 +1,6 @@
-name: "Feature [기능]"
+name: "Feat [기능]"
 description: "Plan and track a new feature. [새로운 기능을 계획하고 작업 내용을 관리합니다.]"
-title: "[Feature] "
+title: "[Feat] "
 labels:
   - enhancement
 
