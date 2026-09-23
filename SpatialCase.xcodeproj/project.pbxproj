@@ -6,8 +6,13 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F1FE212F3062DDB400C665D9 /* Apple iPhone 17.referenceobject in Resources */ = {isa = PBXBuildFile; fileRef = F1FE212E3062DDB400C665D9 /* Apple iPhone 17.referenceobject */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F1D1424C3061472C00B04676 /* SpatialCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FE212E3062DDB400C665D9 /* Apple iPhone 17.referenceobject */ = {isa = PBXFileReference; lastKnownFileType = file.referenceobject; name = "Apple iPhone 17.referenceobject"; path = "ObjectTracking/iPhone17/Extended/ReferenceObjects/Apple iPhone 17.referenceobject"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -43,6 +48,7 @@
 		F1D142433061472C00B04676 = {
 			isa = PBXGroup;
 			children = (
+				F1FE212E3062DDB400C665D9 /* Apple iPhone 17.referenceobject */,
 				F1D1424E3061472C00B04676 /* SpatialCase */,
 				F1D1424D3061472C00B04676 /* Products */,
 			);
@@ -115,6 +121,7 @@
 		F1D1424A3061472C00B04676 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				F1FE212F3062DDB400C665D9 /* Apple iPhone 17.referenceobject in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -139,6 +146,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_NSWorldSensingUsageDescription = "SpatialCase uses world sensing to recognize and track your iPhone for virtual case previews.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -168,6 +176,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_NSWorldSensingUsageDescription = "SpatialCase uses world sensing to recognize and track your iPhone for virtual case previews.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
