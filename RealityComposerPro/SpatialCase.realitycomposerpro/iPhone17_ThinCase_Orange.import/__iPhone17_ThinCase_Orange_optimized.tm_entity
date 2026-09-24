@@ -1,0 +1,103 @@
+__type: "tm_entity"
+__uuid: "7ef2aa33-e740-e824-3a09-3a59d0d8e7ea"
+name: "/"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "883310f4-4e64-2842-9959-16cafd5513d1"
+		local_position_double: {
+			__uuid: "01b75179-a7f4-0938-ed69-412616c996b8"
+		}
+		local_rotation: {
+			__uuid: "7c91bf0d-4d26-9d12-2116-1e2ac296dcd8"
+			x: -0.70710676908493042
+			w: 0.70710676908493042
+		}
+		local_scale: {
+			__uuid: "24460c5a-72e5-4224-01dd-7e607baf7868"
+		}
+	}
+]
+children: [
+	{
+		__uuid: "0bc793dc-b032-0e79-2ff7-d30287f2cbc2"
+		name: "root"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "3db21264-12e2-f048-5d75-bae9c89a2d15"
+				local_position_double: {
+					__uuid: "c4c9f061-5dc9-cbc5-7d4e-cb5173d29314"
+				}
+				local_rotation: {
+					__uuid: "69346272-103a-6732-d81d-70cb16579483"
+				}
+				local_scale: {
+					__uuid: "343ab34e-13c3-a101-7115-a310dc4e98f5"
+				}
+			}
+		]
+		children: [
+			{
+				__uuid: "c77e12f7-6178-60c7-11fe-936b95ff4408"
+				name: "iphone_17_thin_magsafe"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "6a738852-76c7-d62d-4156-8e421ab94e0b"
+						local_position_double: {
+							__uuid: "d5ff9ec4-3487-97da-37e3-835882aa45a2"
+						}
+						local_rotation: {
+							__uuid: "f55e3c21-fecb-a67d-8772-6a89773815b8"
+						}
+						local_scale: {
+							__uuid: "454b7e91-0cd2-6ba6-67ce-8a756a09dd21"
+						}
+					}
+				]
+				children: [
+					{
+						__uuid: "eb92ca30-cdcb-c64b-d706-d3740a251192"
+						name: "iphone_17_thin_magsafe"
+						components: [
+							{
+								__type: "tm_transform_component"
+								__uuid: "24c37f37-6fb6-cc98-07ea-f9e2fa75fa9b"
+								local_position_double: {
+									__uuid: "859b991b-d592-1954-369d-1b7ce2649621"
+								}
+								local_rotation: {
+									__uuid: "0b76266d-b115-6df2-245b-a71a88bc71f4"
+								}
+								local_scale: {
+									__uuid: "a189518c-265e-e075-8316-70aa67e051cd"
+								}
+							}
+							{
+								__type: "tm_model_component"
+								__uuid: "57bdc1ac-b3f3-fb58-5278-141ed74390d4"
+								mesh_resource: {
+									__type: "tm_mesh_resource_reference"
+									__uuid: "b8c2cb38-d82d-5726-f8e3-ec20d9732ce6"
+									mesh_resource: "98ee8043-25ed-b55c-5d67-e6674008d48f"
+								}
+								materials: [
+									{
+										__uuid: "d337e530-d31d-d0cb-18d9-18184829ee4d"
+										name: "iphone_17_thin_magsafe"
+										material: "7e3a1456-f3a0-4d92-4bf6-f1bb24338d0d"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+__asset_uuid: "df34ccc6-8bd2-ca79-f916-9dee0bc76ff8"
+__asset_labels: [
+	"2cbc16a459dc040f"
+]
