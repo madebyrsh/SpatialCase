@@ -13,6 +13,8 @@ import RealityKit
 final class ObjectTrackingManager {
     let session = ARKitSession()
     var objectTracking : ObjectTrackingProvider?
+    // MARK: - DIAGNOSTIC TEST — 기기 움직임 측정만 위한 보조 provider
+    var diagnosticWorldTracking: WorldTrackingProvider?
     
     func startTracking() async throws {
         var configuration = ReferenceObject.Configuration()
@@ -28,6 +30,8 @@ final class ObjectTrackingManager {
         let objectTracking = ObjectTrackingProvider(referenceObjects: [referenceObject])
         self.objectTracking = objectTracking
         
-        try await session.run([objectTracking])
+        let worldTracking = WorldTrackingProvider()
+        diagnosticWorldTracking = worldTracking
+        try await session.run([objectTracking, worldTracking])
     }
 }
