@@ -1,0 +1,22 @@
+__type: "tm_mesh_resource"
+__uuid: "98ee8043-25ed-b55c-5d67-e6674008d48f"
+models: [
+	{
+		__uuid: "a7722549-fa64-0dad-b34b-26dacc7eeebe"
+		name: "iphone_17_thin_magsafe"
+		geometry: "0885ecca-24c4-e8f9-a3df-cc253fcccc03"
+		bounds_min: {
+			__uuid: "4bf36a3d-95c1-f97b-3a38-1e9dba43a49b"
+			x: -0.037849999964237213
+			y: -0.0130000039935112
+			z: -0.076400004327297211
+		}
+		bounds_max: {
+			__uuid: "19202bf6-41e3-2c5b-b363-734ac0c879f9"
+			x: 0.037849999964237213
+			y: -1.3561458622746159e-09
+			z: 0.076400004327297211
+		}
+	}
+]
+__asset_uuid: "130bc198-83d3-1587-6718-2819a6e8ec7b"
