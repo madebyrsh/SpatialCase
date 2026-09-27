@@ -32,7 +32,7 @@ children: [
 					__uuid: "599271a1-8965-d897-c07e-2bf1b7110f23"
 					__prototype_type: "tm_position_double"
 					__prototype_uuid: "01b75179-a7f4-0938-ed69-412616c996b8"
-					z: -0.008999999612569809
+					z: -0.0067749999999999998
 				}
 				local_rotation: {
 					__uuid: "412d627d-a7f4-4f89-9fa2-54be5baa1a2e"
