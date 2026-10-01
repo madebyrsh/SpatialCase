@@ -1,0 +1,66 @@
+__type: "tm_usd_asset"
+__uuid: "5b95b087-4459-28f7-9570-2ffa0216a30b"
+source_path: "../../Models/iPhone17/ResizedCase/iPhone17_ThinCase_Green.usdz"
+settings: [
+	{
+		__type: "tm_scene_optimizer"
+		__uuid: "294072dc-2f1e-93f1-50e5-8ff541a6c0dd"
+		settings: {
+			__uuid: "7c1246f9-e6e1-7c51-509f-d24841bb9c65"
+			graph: {
+				__uuid: "c63904d2-d468-d474-f692-85b21982796a"
+				interface: {
+					__uuid: "07477365-8e8e-5638-66b1-5d0bfc61578b"
+					inputs: [
+						{
+							__uuid: "8d383e6a-1f2d-5503-6906-1e782247df0c"
+							name: "Merging Mode"
+							id: "scene_optimizer_settings__merging_mode"
+							value: {
+								__type: "tm_scene_optimizer_merging_mode"
+								__uuid: "a14b6da9-0bc4-27ad-0c57-188eb0f91249"
+							}
+							public: true
+						}
+						{
+							__uuid: "db787e9c-cbb6-fa59-fe5e-fee6d4acea56"
+							name: "Entities to Keep"
+							id: "scene_optimizer_settings__keep_entities_list"
+							value: {
+								__type: "tm_scene_optimizer_keep_entities_list"
+								__uuid: "2bdd7410-5e2c-c540-5c70-4e31afad2f46"
+							}
+							public: true
+						}
+					]
+				}
+			}
+		}
+		output: "4ea6efb2-de20-ee33-cd11-cc904376a3c8"
+	}
+	{
+		__type: "tm_lod_generator"
+		__uuid: "fc416583-b260-039a-1819-34027c44d29e"
+	}
+]
+pro_settings: [
+	{
+		__type: "tm_usd_purpose_settings"
+		__uuid: "1ab83b94-8a51-373b-0a89-261e210d3a21"
+	}
+	{
+		__type: "tm_usd_dev_settings"
+		__uuid: "b2b198b3-dee6-4f17-ecf5-cd7896ca5efe"
+		mesh_creation_graph: "feefd623-b26a-6155-97b0-2dd807e0e1c3"
+	}
+]
+variants: [
+	{
+		__uuid: "9924d417-4453-4801-5176-09a7c9df80d4"
+		name: "Default"
+		root_entity: "4b0530e3-520a-03d2-44a9-88b9cd146278"
+		proxy_entity: "adef84e8-dd6d-ef93-5b36-112e56c782fe"
+		session: "ffc2c00d-9553-78bf-7934-25059825b3cc"
+	}
+]
+__asset_uuid: "504b4a72-41b8-46af-ca16-da2a91d722d0"

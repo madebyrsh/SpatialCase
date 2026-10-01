@@ -32,7 +32,7 @@ children: [
 					__uuid: "599271a1-8965-d897-c07e-2bf1b7110f23"
 					__prototype_type: "tm_position_double"
 					__prototype_uuid: "01b75179-a7f4-0938-ed69-412616c996b8"
-					z: -0.0067749999999999998
+					z: 0
 				}
 				local_rotation: {
 					__uuid: "412d627d-a7f4-4f89-9fa2-54be5baa1a2e"
@@ -52,7 +52,7 @@ children: [
 ]
 child_sort_values: [
 	{
-		__uuid: "bb615349-9db4-2f51-c337-9ed020c2dc2a"
+		__uuid: "4232016e-454b-18d9-40de-fa472c4bd9e0"
 		child: "fc24f4b5-51b0-fcdf-0ebd-aa70cbc792ad"
 	}
 ]
