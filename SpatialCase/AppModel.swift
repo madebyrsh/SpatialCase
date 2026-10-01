@@ -17,6 +17,15 @@ class AppModel {
         case inTransition
         case open
     }
+    
+    enum CaseColor {
+        case orange
+        case red
+        case yellow
+        case blue
+        case green
+    }
     var immersiveSpaceState = ImmersiveSpaceState.closed
+    var selectedCaseColor: CaseColor = .orange
 }
 

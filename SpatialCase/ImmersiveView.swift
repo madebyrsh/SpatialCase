@@ -13,6 +13,7 @@ struct ImmersiveView: View {
     @State private var objectTrackingManager = ObjectTrackingManager()
     @State private var trackedEntity: Entity?
     @State private var caseEntity: Entity?
+    @State private var caseContainer = Entity()
     @State private var runtimeRoot = Entity()
     
     var body: some View {
@@ -22,6 +23,7 @@ struct ImmersiveView: View {
                 
                 caseEntity = world.findEntity(named: "iPhone17_ThinCase_Orange")
             }
+            
             content.add(runtimeRoot)
         }
         .task {
@@ -48,9 +50,12 @@ struct ImmersiveView: View {
                 
                 trackedEntity = entity
                 runtimeRoot.addChild(entity)
+    
+                caseContainer.position.z = -0.006775
+                entity.addChild(caseContainer)
                 
                 if let caseEntity {
-                    entity.addChild(caseEntity)
+                    caseContainer.addChild(caseEntity)
                 }
                 
                 print("Object anchor added")
