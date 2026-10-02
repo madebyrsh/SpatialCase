@@ -1,0 +1,56 @@
+__type: "tm_entity"
+__uuid: "cbca29c6-3958-60a6-1f4d-97be4a9e9139"
+name: ""
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "2a7206eb-6dbe-30f5-962d-ad88540303d0"
+		local_position_double: {
+			__uuid: "724888ae-7df4-37ac-af77-66b3aa448ff1"
+		}
+		local_rotation: {
+			__uuid: "6920225c-776a-e194-3aa7-49bd6b8a92dc"
+		}
+		local_scale: {
+			__uuid: "37ae723b-6aeb-b78d-4a6c-f3f5d47139d4"
+		}
+	}
+]
+children: [
+	{
+		__uuid: "0070bc5f-a9a8-418d-7f42-2bcbea1f637f"
+		__prototype_type: "tm_entity"
+		__prototype_uuid: "1756b15e-0aa3-0f5e-c25c-7c44b8130477"
+		name: "iPhone17_ThinCase_Red"
+		components__instantiated: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "ce2493f4-d467-23d9-8196-89c5fe3c951c"
+				__prototype_type: "tm_transform_component"
+				__prototype_uuid: "4964c031-ea18-ef26-e4e9-4e8660ea19ac"
+				local_position_double: {
+					__uuid: "e2e0e2ac-b2e5-8c87-8f43-0ec40d884036"
+					__prototype_type: "tm_position_double"
+					__prototype_uuid: "f8ca1e0b-504f-776e-ce0a-420ab2f6ee01"
+				}
+				local_rotation: {
+					__uuid: "a258824e-e79d-4dc2-8e3d-4b8b55f12757"
+					__prototype_type: "tm_rotation"
+					__prototype_uuid: "9696bf7c-5254-d3dd-98d1-8b69de491e42"
+				}
+				local_scale: {
+					__uuid: "07779801-35a8-a004-99d3-17179dd4c1ec"
+					__prototype_type: "tm_scale"
+					__prototype_uuid: "0a1f5378-8a9c-4a72-8fa3-6831ba8fe2f0"
+				}
+			}
+		]
+	}
+]
+child_sort_values: [
+	{
+		__uuid: "00a76480-ec48-d7ef-3f7a-f6b0dc486935"
+		child: "0070bc5f-a9a8-418d-7f42-2bcbea1f637f"
+	}
+]
+__asset_uuid: "88affd69-c1da-78c2-f9d9-7f1b16532445"

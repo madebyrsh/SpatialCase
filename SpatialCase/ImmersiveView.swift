@@ -10,6 +10,7 @@ import RealityKit
 import ARKit
 
 struct ImmersiveView: View {
+    @Environment(AppModel.self) private var appModel
     @State private var objectTrackingManager = ObjectTrackingManager()
     @State private var trackedEntity: Entity?
     @State private var caseEntity: Entity?
@@ -18,10 +19,11 @@ struct ImmersiveView: View {
     
     var body: some View {
         RealityView { content in
-            if let world = try? await Entity(named: "world") {
-                content.add(world)
-                
-                caseEntity = world.findEntity(named: "iPhone17_ThinCase_Orange")
+            do {
+                caseEntity = try await Entity(named: caseEntityName)
+                print("✅ \(caseEntityName) loaded")
+            } catch {
+                print("❌ \(caseEntityName) load failed:", error)
             }
             
             content.add(runtimeRoot)
@@ -35,6 +37,8 @@ struct ImmersiveView: View {
             }
         }
     }
+    
+    
     
     private func processAnchorUpdates() async {
         guard let objectTracking = objectTrackingManager.objectTracking else {
@@ -77,6 +81,21 @@ struct ImmersiveView: View {
                 print("Object anchor removed")
             }
             
+        }
+    }
+    
+    private var caseEntityName: String {
+        switch appModel.selectedCaseColor {
+        case .orange:
+            "CaseOrange"
+        case .red:
+            "CaseRed"
+        case .yellow:
+            "CaseYellow"
+        case .blue:
+            "CaseBlue"
+        case .green:
+            "CaseGreen"
         }
     }
 }

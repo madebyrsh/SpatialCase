@@ -16,46 +16,6 @@ components: [
 		}
 	}
 ]
-children: [
-	{
-		__uuid: "fc24f4b5-51b0-fcdf-0ebd-aa70cbc792ad"
-		__prototype_type: "tm_entity"
-		__prototype_uuid: "fa46bc44-f8ec-5bc9-ba0f-4cb8ad83aa34"
-		name: "iPhone17_ThinCase_Orange"
-		components__instantiated: [
-			{
-				__type: "tm_transform_component"
-				__uuid: "f7b2e638-c965-84e8-74eb-ab50d41f6e47"
-				__prototype_type: "tm_transform_component"
-				__prototype_uuid: "883310f4-4e64-2842-9959-16cafd5513d1"
-				local_position_double: {
-					__uuid: "599271a1-8965-d897-c07e-2bf1b7110f23"
-					__prototype_type: "tm_position_double"
-					__prototype_uuid: "01b75179-a7f4-0938-ed69-412616c996b8"
-					z: 0
-				}
-				local_rotation: {
-					__uuid: "412d627d-a7f4-4f89-9fa2-54be5baa1a2e"
-					__prototype_type: "tm_rotation"
-					__prototype_uuid: "7c91bf0d-4d26-9d12-2116-1e2ac296dcd8"
-					x: -0.7071068286895752
-					w: 0.7071068286895752
-				}
-				local_scale: {
-					__uuid: "a7ef537a-e96c-0ba2-a458-f2a90ee18700"
-					__prototype_type: "tm_scale"
-					__prototype_uuid: "24460c5a-72e5-4224-01dd-7e607baf7868"
-				}
-			}
-		]
-	}
-]
-child_sort_values: [
-	{
-		__uuid: "4232016e-454b-18d9-40de-fa472c4bd9e0"
-		child: "fc24f4b5-51b0-fcdf-0ebd-aa70cbc792ad"
-	}
-]
 __asset_uuid: "8124fc29-90ea-74d7-9694-16087ad12e7d"
 __asset_thumbnail: {
 	__uuid: "1b7ff1d6-ae75-deb6-46d7-7d28926541a7"
